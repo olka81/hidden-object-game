@@ -1,0 +1,14 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "d:\\code\\hidden-object-game\\hiddenobjectgame\\source\\hiddenobjectgame\\hiddenobjectgame.cpp",
+        "ProvidedModule": "",
+        "PCH": "d:\\code\\hidden-object-game\\hiddenobjectgame\\intermediate\\build\\win64\\x64\\hiddenobjectgameeditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.valexpapi.cpp20.h.pch",
+        "Includes": [
+            "d:\\code\\hidden-object-game\\hiddenobjectgame\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\hiddenobjectgame\\definitions.hiddenobjectgame.h",
+            "d:\\code\\hidden-object-game\\hiddenobjectgame\\source\\hiddenobjectgame\\hiddenobjectgame.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "HiddenObjectGame",
+			"Path": "..\\Source\\HiddenObjectGame.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "HiddenObjectGameEditor",
+			"Path": "..\\Source\\HiddenObjectGameEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}
