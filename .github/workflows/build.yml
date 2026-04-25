@@ -1,0 +1,27 @@
+name: Build UE5 Project
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: self-hosted
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Build HiddenObjectGame
+        shell: cmd
+        run: |
+          "Z:\Engine\Build\BatchFiles\Build.bat" ^
+            HiddenObjectGameEditor ^
+            Win64 ^
+            Development ^
+            "%GITHUB_WORKSPACE%\HiddenObjectGame\HiddenObjectGame.uproject" ^
+            -waitmutex ^
+            -NoHotReload
+        env:
+          GITHUB_WORKSPACE: ${{ github.workspace }}
