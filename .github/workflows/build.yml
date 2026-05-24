@@ -26,7 +26,9 @@ jobs:
             -stage ^
             -pak ^
             -archive ^
-            -archivedirectory="C:\actions-runner\_work\hidden-object-game\hidden-object-game\BuildOutput"
+            -archivedirectory="C:\actions-runner\_work\hidden-object-game\hidden-object-game\BuildOutput" ^
+            -WarningsAsErrorsMode=None ^
+            -utf8output
         env:
           ENGINE_PATH: Z:\Engine\Build\BatchFiles\RunUAT.bat
           GITHUB_WORKSPACE: ${{ github.workspace }}
