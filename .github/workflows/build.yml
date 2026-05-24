@@ -22,7 +22,7 @@ jobs:
             Development ^
             "%GITHUB_WORKSPACE%\HiddenObjectGame\HiddenObjectGame.uproject" ^
             -waitmutex ^
-            -NoHotReload ^
-            -DisableUnrealBuildAccelerator
+            -NoHotReload
         env:
           GITHUB_WORKSPACE: ${{ github.workspace }}
+          UE_USE_UBA: 0
